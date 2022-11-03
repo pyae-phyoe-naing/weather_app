@@ -21,8 +21,7 @@ class _SearchCityScreenState extends State<SearchCityScreen> {
       create: (context) => _searchCityBloc,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Weather Application'),
-          centerTitle: true,
+          title: const Text('Flutter Weather'),
           elevation: 0,
         ),
         body: Column(
